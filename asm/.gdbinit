@@ -21,13 +21,13 @@ commands
   continue
 end
 
-break snippet.loop
-commands
-  silent
-  printf "=== LOOP ITERATION ===\n"
-  dump_regs
-  continue
-end
+#break snippet.loop
+#commands
+#  silent
+#  printf "=== LOOP ITERATION ===\n"
+#  dump_regs
+#  continue
+#end
 
 break after
 commands
