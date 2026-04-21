@@ -2,7 +2,7 @@ section .text
 global _start
 
 _start:
-  mov rax, 0xa;
+  mov rax, 0xb;
   mov rbx, 0; 
   mov rcx, 0;
   mov rdx, 0;
@@ -25,9 +25,8 @@ _start:
   ; 8 -> 9, 1
   ; 9 -> a~10, 2
   ; a~10 -> b~11, 1
+  ; rax --> rax+1, rdx = value_of_lowest_set_bit(rax)
 
-
-  ; the algebraic meaning isn't obvious... so I'm emperically testing...
 snippet:
   mov rcx, rax
   shr rcx, 1
