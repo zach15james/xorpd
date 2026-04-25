@@ -34,7 +34,6 @@ after:
   syscall
 
 ; formatted output of tests
-;0b0~0~0x00,0x00~0~0b0
 ;0b1~1~0x01,0x01~1~0b1
 ;0b10~2~0x02,0x06~6~0b110
 ;0b11~3~0x03,0x07~7~0b111
