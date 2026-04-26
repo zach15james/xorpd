@@ -7,5 +7,3 @@ the command I ran was
 ```bash
 nasm -f elf64 -g -F dwarf 0xNN.asm -o 0xNN.o && ld 0xNN.o -o 0xNN && gdb ./0xNN
 ```
-
-if you disagree or have any questions, feel free to email me: zach15james@proton.me
